@@ -18,7 +18,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -27,3 +27,16 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
+// import '@fortawesome/fontawesome-svg-core/styles.css'
+// import { config } from '@fortawesome/fontawesome-svg-core'
+// config.autoAddCss = false // impede o FA de injetar CSS automaticamente
+
+// export default function RootLayout({ children }) {
+//   return (
+//     <html lang="pt-BR">
+//       <body>{children}</body>
+//     </html>
+//   )
+// }
