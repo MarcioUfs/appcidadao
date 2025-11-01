@@ -8,7 +8,6 @@ export default function Home() {
                 <button
                     className="bg-blue-500 text-white p-2 rounded mt-4 w-64 hover:bg-blue-600 hover:cursor-pointer"
                 >
-
                     Buracos
                 </button>
             </Link>
