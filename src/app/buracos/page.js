@@ -64,7 +64,7 @@ export default function Buracos() {
   return (
     <div className="justify-center items-center flex flex-col min-h-screen p-4">
       <h1 className="text-1xl text-justify mb-6">Preencha os dados abaixo e contribua com sua cidade</h1>
-      <p className="mb-2 text-justify">Adicione o máximo de informações que puder</p> 
+      <p className="mb-2 text-justify">Adicione o máximo de informações que puder!</p> 
 
       <textarea
         maxLength={500}
