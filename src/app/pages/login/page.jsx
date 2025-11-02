@@ -16,7 +16,7 @@ export default function Login() {
 
     if (autenticado) {
       setErro("");
-      router.push("/ocorrencia");
+      router.push("/pages/ocorrencia");
     } else {
       setErro("Login ou senha inválidos.");
     }
